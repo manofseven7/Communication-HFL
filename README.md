@@ -2,7 +2,7 @@
 
 Reproducibility release **2.1.0**, accompanying the revised Scientific Reports manuscript. The framework coordinates an aligned feature mask across clients and compresses local, edge and global updates. The release includes the implementation, declared configurations, recorded results, table/figure analysis and tests.
 
-Repository: https://github.com/manofseven7/fl-hiersvd
+Repository: https://github.com/manofseven7/Communication-HFL
 
 The archival DOI for this new release must be inserted after publication. The older DOI `10.5281/zenodo.21744056` identifies the earlier release, not this update. See `docs/PUBLICATION_GUIDE_FA.md`.
 

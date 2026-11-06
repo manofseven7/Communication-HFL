@@ -15,4 +15,5 @@ authors:
     given-names: Neda
   - family-names: Hosseinzadeh
     given-names: Mehdi
-repository-code: https://github.com/manofseven7/fl-hiersvd
+repository-code: https://github.com/manofseven7/Communication-HFL
+license: "MIT"

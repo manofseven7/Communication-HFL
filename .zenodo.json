@@ -1,0 +1,25 @@
+{
+  "title": "Communication-Efficient Hierarchical Federated Learning via Coordinated Model-Guided Feature Selection and Bidirectional Low-Rank Compression",
+  "upload_type": "software",
+  "version": "2.1.0",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Mollanejad, Amir"
+    },
+    {
+      "name": "Hoseinnejad, Mihan"
+    },
+    {
+      "name": "Pour Haji Kazem, Ali Asghar"
+    },
+    {
+      "name": "Dadashkhani, Neda"
+    },
+    {
+      "name": "Hosseinzadeh, Mehdi"
+    }
+  ],
+  "description": "Reproducibility release accompanying the revised Scientific Reports manuscript. Includes hierarchical federated learning source, configurations, recorded seed-level results, table and figure reconstruction scripts, and validation tests. Main protocols cover Fashion-MNIST, UCI HAR and CIFAR-10; separate 50-round diagnostics are labelled exploratory."
+}
