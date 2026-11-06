@@ -1,0 +1,114 @@
+{
+  "cifar400": [
+    {
+      "method": "fedavg",
+      "n_attempted": 3,
+      "n_valid_endpoints": 2,
+      "failures": 1,
+      "accuracy_mean": 66.22,
+      "accuracy_sd": 0.26870057685088483,
+      "f1_mean": 66.09274571732561,
+      "f1_sd": 0.32749862525924917,
+      "payload_mib": 334949.9053955078,
+      "payload_reduction_vs_fedavg_pct": 0.0
+    },
+    {
+      "method": "powersgd",
+      "n_attempted": 3,
+      "n_valid_endpoints": 3,
+      "failures": 0,
+      "accuracy_mean": 63.36000000000001,
+      "accuracy_sd": 1.0641898326896388,
+      "f1_mean": 63.15271617276503,
+      "f1_sd": 1.1022309717399428,
+      "payload_mib": 172057.89184570312,
+      "payload_reduction_vs_fedavg_pct": 48.631753861062386
+    },
+    {
+      "method": "qsgd",
+      "n_attempted": 3,
+      "n_valid_endpoints": 3,
+      "failures": 0,
+      "accuracy_mean": 66.03333333333333,
+      "accuracy_sd": 0.3875994496040092,
+      "f1_mean": 65.89730172163338,
+      "f1_sd": 0.4198987784063467,
+      "payload_mib": 217514.4500732422,
+      "payload_reduction_vs_fedavg_pct": 35.060602624621794
+    },
+    {
+      "method": "proposed",
+      "n_attempted": 3,
+      "n_valid_endpoints": 3,
+      "failures": 0,
+      "accuracy_mean": 61.49666666666667,
+      "accuracy_sd": 0.38759944960401044,
+      "f1_mean": 61.315744778383966,
+      "f1_sd": 0.43604646619686965,
+      "payload_mib": 15822.311401367188,
+      "payload_reduction_vs_fedavg_pct": 95.27621559328871
+    }
+  ],
+  "diagnostic50": [
+    {
+      "variant": "rank10",
+      "n": 3,
+      "rounds": 50,
+      "accuracy_mean": 58.53,
+      "accuracy_sd": 0.6464518543557584,
+      "f1_mean": 57.9342901432348,
+      "f1_sd": 0.716251943490755,
+      "payload_mib": 1977.7889251708984
+    },
+    {
+      "variant": "rank20",
+      "n": 3,
+      "rounds": 50,
+      "accuracy_mean": 60.156666666666666,
+      "accuracy_sd": 0.8793368713600769,
+      "f1_mean": 59.62117144868461,
+      "f1_sd": 0.9182530822280621,
+      "payload_mib": 3828.187942504883
+    },
+    {
+      "variant": "dense_down10",
+      "n": 3,
+      "rounds": 50,
+      "accuracy_mean": 58.68000000000001,
+      "accuracy_sd": 0.49325449820554085,
+      "f1_mean": 58.098787420275244,
+      "f1_sd": 0.5400647619952023,
+      "payload_mib": 21436.78855895996
+    }
+  ],
+  "diagnostic_differences": [
+    {
+      "variant": "rank20",
+      "paired_accuracy_differences_pp": [
+        1.759999999999998,
+        1.220000000000006,
+        1.8999999999999986
+      ],
+      "mean_pp": 1.6266666666666676,
+      "sample_sd_pp": 0.3590728802532019,
+      "payload_multiplier": 1.9355897354790241
+    },
+    {
+      "variant": "dense_down10",
+      "paired_accuracy_differences_pp": [
+        0.28000000000000114,
+        0.19000000000000483,
+        -0.01999999999999602
+      ],
+      "mean_pp": 0.15000000000000333,
+      "sample_sd_pp": 0.15394804318340544,
+      "payload_multiplier": 10.838764585107398
+    }
+  ],
+  "proposed_accuracy_gap_vs_powersgd_pp": -1.8633333333333368,
+  "proposed_accuracy_gap_vs_qsgd_pp": -4.536666666666662,
+  "proposed_payload_saving_vs_powersgd_pct": 90.8040769117663,
+  "proposed_payload_saving_vs_qsgd_pct": 92.72585734141366,
+  "fedavg_failure": "seed43; nonfinite checkpoint verified separately; raw 10% is invalid model accuracy; valid-only n=2 summary is unbalanced and descriptive",
+  "inference": "Descriptive, no post-hoc significance/equivalence claims. Reused rank10 prefixes, CUDA nondeterminism, three seeds, 50 rounds. Not a 400-round rank20 result."
+}

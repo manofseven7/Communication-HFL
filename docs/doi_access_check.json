@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-11-06T09:28:08.496105+00:00",
+  "doi": "10.5281/zenodo.21744056",
+  "record_id": 21744056,
+  "access": "open",
+  "file": "fl-hiersvd-v2.0.zip",
+  "bytes": 32117,
+  "md5": "a210ff1547a0ae946c7e1a6a243d26ea",
+  "download_without_authentication": true,
+  "repository": "https://github.com/manofseven7/fl-hiersvd",
+  "repository_public": true
+}

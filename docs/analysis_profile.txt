@@ -1,0 +1,9 @@
+dataset method n time_s_mean time_s_sd peak_rss_mib comm_mib
+fashion fedavg 3 3.70 0.05 3973.78 40.76
+fashion fednova 3 3.72 0.04 3973.22 40.76
+fashion powersgd 3 3.97 0.05 4034.71 21.91
+fashion proposed 3 4.12 0.03 3973.86 4.22
+har fedavg 3 1.16 0.02 3664.90 29.12
+har fednova 3 1.13 0.02 3664.90 29.12
+har powersgd 3 1.26 0.00 3757.18 15.76
+har proposed 3 1.37 0.02 3664.90 3.13

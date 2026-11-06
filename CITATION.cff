@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Communication-Efficient Hierarchical Federated Learning via Coordinated Model-Guided Feature Selection and Bidirectional Low-Rank Compression"
+message: "If you use this software, please cite the version-specific archived release once deposited."
+type: software
+version: 2.1.0
+date-released: 2026-11-06
+authors:
+  - family-names: Mollanejad
+    given-names: Amir
+  - family-names: Hoseinnejad
+    given-names: Mihan
+  - family-names: Pour Haji Kazem
+    given-names: Ali Asghar
+  - family-names: Dadashkhani
+    given-names: Neda
+  - family-names: Hosseinzadeh
+    given-names: Mehdi
+repository-code: https://github.com/manofseven7/fl-hiersvd

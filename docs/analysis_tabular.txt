@@ -1,0 +1,6 @@
+{
+  "stage": "tabular",
+  "complete_seed_runs": 135,
+  "summary_rows": 27,
+  "output": "analysis_outputs/tabular"
+}
